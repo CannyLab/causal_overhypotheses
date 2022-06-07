@@ -1,8 +1,32 @@
 # Towards Understanding How Machines Can Learn Causal Overhypotheses (Submission: NeurIPS Baselines 2022)
 
+[TODO]
 
+## Environment Details
 
+[TODO]
 
+## Running our Benchmarks
+
+### Installation and Requirements
+
+[TODO]
+
+### Q-Learning
+
+[TODO]
+
+### Standard RL Models
+
+[TODO]
+
+### Decision Transformer / Behavior Cloning
+
+[TODO]
+
+### PALM/GPT Prompts
+
+[TODO]
 
 ## License Information
 
