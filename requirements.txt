@@ -1,0 +1,5 @@
+tensorflow==1.15.5
+gym==0.21.0
+protobuf==3.20
+tqdm
+stable-baselines

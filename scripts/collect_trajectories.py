@@ -1,4 +1,7 @@
 
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../envs'))
 import argparse
 from stable_baselines import A2C, PPO2
 from causal_env_v0 import CausalEnv_v0

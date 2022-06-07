@@ -1,6 +1,6 @@
 from stable_baselines.a2c.a2c import A2C
 from stable_baselines.ppo2.ppo2 import PPO2
-from causal_env_v0 import CausalEnv_v0, ABconj, ACconj, BCconj, Adisj, Bdisj, Cdisj
+from envs.causal_env_v0 import CausalEnv_v0, ABconj, ACconj, BCconj, Adisj, Bdisj, Cdisj
 from stable_baselines.common.vec_env.dummy_vec_env import DummyVecEnv
 from stable_baselines.common.misc_util import set_global_seeds
 from stable_baselines.common.callbacks import EvalCallback, StopTrainingOnRewardThreshold
