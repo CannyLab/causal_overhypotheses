@@ -20,7 +20,20 @@ pip install tensorflow==1.15.5 stable-baselines gym==0.21.0 protobuf==3.20 tqdm
 
 ### Q-Learning
 
-[TODO]
+To run Q-Learning experiments, use the command `python models/q_learning.py` with the correct options:
+
+```
+usage: q_learning.py [-h] [--num NUM] [--alpha ALPHA] [--discount DISCOUNT] [--epsilon EPSILON]
+
+Train a q-learner
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --num NUM            Number of times to experiment
+  --alpha ALPHA        Learning rate
+  --discount DISCOUNT  Discount factor
+  --epsilon EPSILON    Eepsilon-greedy exploration rate
+```
 
 ### Standard RL Models
 
